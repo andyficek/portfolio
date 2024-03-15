@@ -1,7 +1,6 @@
 import breakitdown from "./assets/images/breakitdownss.png";
 import noteworthy from "./assets/images/desktopSS.png";
 import quotemycar from "./assets/images/quotemycar.png";
-import profpic from "./assets/images/profPicBackdrop.svg";
 const logotext = "ANDY";
 const meta = {
   title: "Andy Ficek",
@@ -10,46 +9,48 @@ const meta = {
 };
 
 const introdata = {
-  title: "I’m Andy Ficek",
+  title: "Andy Ficek",
   animated: {
-    first: "Passionate & self-driven dev",
-    second: "I code full-stack websites",
-    third: "Always looking to learn",
+    first: "AWS",
+    second: "Full Stack",
+    third: "Cloud Driven Solutions",
   },
-  description: "Self-starting problem solver.",
+  description: "Full Stack Software Engineer & AWS Cloud Practitioner",
   your_img_url: "",
 };
 
 const dataabout = {
   title: "Me",
   aboutme:
-    "Born and raised in Central Illinois, I come from a long line of computer scientists. My brother and I are both software engineers and we strive to push eachother to achieve greater. I have about half a year of professional experience and am eager to get more!",
+    "Born and raised in central Illinois. I have more than a year of " +
+      "professional experience developing cloud solutions for all types of users using " +
+      "AWS technology."
 };
 const worktimeline = [
   {
-    jobtitle: "Image Annotations for Data Modelling",
-    where: "@ Precision Planting",
+    jobtitle: "Image Annotations for Data Modeling Algorithms",
+    where: "@ PrecisionPlanting AGCO",
     date: "Oct. 2022",
   },
   {
     jobtitle: "Apprentice Software Engineer",
-    where: "@ Precision Planting",
+    where: "@ PrecisionPlanting AGCO",
     date: "June 2023",
   },
   {
     jobtitle: "Software Engineer",
-    where: "@ Precision Planting",
+    where: "@ PrecisionPlanting AGCO",
     date: "Nov. 2023 ~",
   },
 ];
 
 const skills = [
   {
-    name: "JavaScript/TypeScript",
+    name: "TypeScript",
     value: 40,
   },
   {
-    name: "SQL (ORM)",
+    name: "MySQL/SQL",
     value: 10,
   },
   {
@@ -79,7 +80,7 @@ const dataportfolio = [
   {
     img: `${quotemycar}`,
     description: "QuoteMyCar: Car Insurance Quote Estimator",
-    link: "https://github.com/aficek703/QuoteMyCar",
+    link: "https://github.com/andyficek/QuoteMyCar",
   },
   {
     img: `${noteworthy}`,
@@ -101,7 +102,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-  github: "https://github.com/aficek703",
+  github: "https://github.com/andyficek",
   linkedin: "https://www.linkedin.com/in/anderson-ficek-305bab217/",
 };
 export {
