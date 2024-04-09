@@ -5,7 +5,7 @@ const logotext = "ANDY";
 const meta = {
   title: "Andy Ficek",
   description:
-    "I’m Andy Ficek data scientist _ Full stack devloper,currently working in Bloomington",
+    "Full Stack Software Engineer",
 };
 
 const introdata = {
@@ -90,8 +90,7 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: "aficek@precisionplanting.com",
-  YOUR_FONE: "(309)830-1851",
+  YOUR_EMAIL: "me@andyficek.dev",
   description:
     "Interested in a chat? Let me know! I'll get back to you as soon as I can.",
   // creat an emailjs.com account
